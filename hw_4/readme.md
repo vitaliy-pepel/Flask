@@ -12,6 +12,6 @@
 curl -X POST -H "Content-Type: application/json" -d '{"urls": ["https://example/images/image1.jpg", "https://example/images/image2.jpg"]}' http://localhost:5000/download
 
 Выбор подхода:
-многопоточный 		"download_images_threads"
-многопроцессорный 	"download_images_processes"
-асинхронный 		"download_images_async"
+* многопоточный 		"download_images_threads"
+* многопроцессорный 	"download_images_processes"
+* асинхронный 		"download_images_async"
