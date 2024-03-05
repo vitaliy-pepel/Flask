@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Input</title>
+</head>
+<body>
+    <h1>Enter your name and email:</h1>
+    <form action="{{ url_for('submit') }}" method="POST">
+        <label for="user_name">Name:</label>
+        <input type="text" name="user_name" required>
+        <br>
+        <label for="user_email">Email:</label>
+        <input type="email" name="user_email" required>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
